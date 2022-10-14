@@ -236,10 +236,6 @@ button, input[type="submit"] {
     margin: auto;
 }
 
-.padding-center {
-    padding: auto;
-}
-
 .fullheight-vertical {
     height: 100vh;
 }
@@ -261,7 +257,7 @@ button, input[type="submit"] {
 .flex-center-start { 
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .flex-column {
@@ -591,7 +587,7 @@ button, input[type="submit"] {
     /*ELEMENTS*/
 
     .purchase-button {
-        margin-bottom: none;
+        margin-bottom: 0;
     }
 
 }
