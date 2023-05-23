@@ -175,7 +175,11 @@ textarea {
     height: 500px;
 }
 
-button, input[type="submit"] {
+.button {
+    background:#f28b50;
+    color: #FFF;
+    padding: 0.5em;
+    text-align: center;
     border: none;
 }
 
@@ -430,13 +434,21 @@ button, input[type="submit"] {
 
 .disabled {
     pointer-events: none;
-    background-color: rgba(0, 154, 169, 0.5);
+    background-color: rgb(242, 139, 80, 0.5);
 }
 
 /*HOVER*/
 
-.orange-bg-hover:hover {
-    background: #f28b50;
+.button:hover {
+    background:#F2E2CF;
+    color:#4F4F4F;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+
+header nav ul a:hover, footer nav ul a:hover {
+    color: rgb(79, 79, 79, 0.5);
+    transition: 0.4s ease-out;
 }
 
 /*ANIMATIONS*/

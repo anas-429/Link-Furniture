@@ -11,7 +11,7 @@
 				<div id="banner" class="black-bg-05 fullwidth fullheight flex-center">
 					<div class="margin-center padding">
 						<h2 class="titillium platinum-underline small white margin-bottom-light">Welcome Homeowner!</h2>
-						<button class="green-bg fullwidth padding-light">Explore Products</button>
+						<a href="products.php" class="button">Explore Products</a>
 					</div>
 				</div>
 				</div>

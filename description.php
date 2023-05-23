@@ -28,7 +28,7 @@
             print '<div class="platinum-underline">';
             print '<div class="double">';
                 print '<h2 class="titillium margin-none">'.$row['product'].'</h2>';
-                print '<input type="submit" value="Add To Cart" id="'.$row['id'].'" class="purchase-button button green-bg orange-bg-hover bold pointer fullwidth padding-light margin-none">';
+                print '<input type="submit" value="Add To Cart" id="'.$row['id'].'" class="purchase-button button">';
             print '</div>';
             print '</div>';
 
@@ -49,7 +49,7 @@
 
             print '<table id="specs" class="titillium x-small fullwidth">';
                 print '<tbody class="margin-none">';
-                print '<tr class="properties green-bg fullwidth padding margin-none">';
+                print '<tr class="properties metal-bg fullwidth padding margin-none">';
                     print $row['table_properties'];
                 print '</tr>';
                 print '<tr class="values fullwidth padding margin-none">';
